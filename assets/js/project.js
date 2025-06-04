@@ -8,20 +8,36 @@ const projects = [
   
   {
     title: "Sales Analysis Dashboard, PowerBI",
-    cardImage: "assets/images/project-page/proj_3.png",
+    cardImage: "assets/images/project-page/proj_2.png",
     description: "Sales Analysis Dashboard Built using PowerBI.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard",
+    Previewlink: "assets/images/preview/Sales_proj.png.png",
+    Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Sales%20and%20Budget%20Analysis.pbit",
   },
   {
     title: "Heart Disease Analysis, PowerBI",
-    cardImage: "assets/images/project-page/proj_2.png",
+    cardImage: "assets/images/project-page/proj_3.png",
     description: "Heart Disease Analysis Dashboard Built using PowerBI.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard",
+    Previewlink: "assets/images/preview/Heart_proj.png",
+    Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Heart%20Disease%20Analysis.pbit",
   },
+  {
+  title: "Pizza Sales Analysis, Tableau",
+  cardImage: "assets/images/project-page/proj_1.png",
+  description: "A quiz app built using basic react.",
+  tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+  Previewlink: "assets/images/preview/pizza_proj.png",
+  Githublink: "https://github.com/Ashvinz/Tableau-Dashboard/blob/main/Pizza%20Dashboards.twb",
+},
+{
+  title: "Churn Dashboard, PowerBI",
+  cardImage: "assets/images/project-page/proj_4.jpg",
+  description: "Churn Dashboard Build using PowerBI.",
+  tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+  Previewlink: "assets/images/preview/Churn_proj.png",
+  Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Customer%20Churn%20Analysis.pbix",
+},
   {
     title: "Python-MySQL Banking Insights , Data Analysis",
     cardImage: "assets/images/project-page/proj_7.jpg",
@@ -36,7 +52,7 @@ const projects = [
     description: "A project demonstrating data processing techniques such as data cleaning, transformation, integration, and aggregation for large-scale datasets.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/Data-Processing-Pipeline"
+    Githublink: "https://github.com/Ashvinz/Data-Processing-Pipeline/blob/main/Flight_Fare_Prediction.ipynb"
   },
   {
     title: "ML & DL Models, Predictive Analysis in Python",
@@ -68,25 +84,16 @@ const projects = [
     description: "An intelligent travel assistant chatbot built with Django, NLP, and Machine Learning to enhance customer experience through automated travel assistance.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/Travel-Chatbot"
+    Githublink: "https://github.com/Ashvinz/TravelEase-AI-TravelApp"
 },
 {
-  title: "PIzza Sales Analysis, Tableau",
-  cardImage: "assets/images/project-page/proj_1.png",
-  description: "A quiz app built using basic react.",
-  tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  Previewlink: "",
-  Githublink: "https://github.com/Ashvinz/Tableau-Dashboard",
+    title: "Dominos-Sales-Prediction, Deep Learning & Machine Learning",
+    cardImage: "assets/images/project-page/proj_12.jpg",
+    description: "📊 Forecasting pizza sales using ARIMA, Prophet, LSTM & more to power smart, data-driven decisions.",
+    tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
+    Previewlink: "",
+    Githublink: "https://github.com/Ashvinz/Dominos-Sales-Prediction/blob/main/dominos_sales_prediction.ipynb"
 },
-{
-  title: "Churn Dashboard, PowerBI",
-  cardImage: "assets/images/project-page/proj_4.jpg",
-  description: "Churn Dashboard Build using PowerBI.",
-  tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-  Previewlink: "",
-  Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard",
-}
-
 ];
 
 // function for rendering project cards data
