@@ -16,14 +16,14 @@ const exp = [
     cardImage: "assets/images/experience-page/tcs.png",
     place: "Tata Consultancy Services",
     time: "(Nov - Dec, 2024)",
-    desp: "<li>Focused on Data Visualization: Empowering Business with Effective Insights.</li><li>Designed interactive dashboards to visualize business data effectively using tools like Power BI and Tableau./li><li>Presented insights that streamlined business processes and enhanced decision-making efficiency.</li>",
+    desp: "<li>Focused on Data Visualization: Empowering Business with Effective Insights.</li><li>Designed interactive dashboards to visualize business data effectively using tools like Power BI and Tableau.</li><li>Presented insights that streamlined business processes and enhanced decision-making efficiency.</li>",
   },
   {
     title: "Data Analyst Virtual Intern",
     cardImage: "assets/images/experience-page/accenture.jpg",
     place: "Accenture",
     time: "(Dec, 2024)",
-    desp: "<li>Engaged in a Data Analytics and Visualization Job Simulation</li><li>Utilized Python and SQL to analyze datasets and extract meaningful insights.</li>,<li>Created dynamic visualizations and reports that addressed business requirements and improved operational performance.</li>",
+    desp: "<li>Engaged in a Data Analytics and Visualization Job Simulation</li><li>Utilized Python and SQL to analyze datasets and extract meaningful insights.</li><li>Created dynamic visualizations and reports that addressed business requirements and improved operational performance.</li>",
   },
 ];
 
