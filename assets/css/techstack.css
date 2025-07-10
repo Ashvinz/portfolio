@@ -2,27 +2,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 html[light-mode="light"] {
-  --bg1-color: rgba(0, 0, 0, 0);
-  --text-color: #6c757d;
-  --shadow-col1: #babdc2;
-  --shadow-col2: #ffffff;
-  --meta-col: #444;
-  --head-col: black;
+    --bg1-color: rgba(0, 0, 0, 0);
+    --text-color: #6c757d;
+    --shadow-col1: #babdc2;
+    --shadow-col2: #ffffff;
+    --meta-col: #444;
+    --head-col: black;
 }
 
 html[light-mode="dark"] {
-  --bg1-color: #272727;
-  --text-color: #fff;
-  --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
-  --txt-fill: transparent;
-  --shadow-col1: #191919;
-  --shadow-col2: #1d1d1d;
-  --meta-col: rgb(155, 149, 149);
-  --head-col: #fff;
+    --bg1-color: #272727;
+    --text-color: #fff;
+    --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+    --txt-fill: transparent;
+    --shadow-col1: #191919;
+    --shadow-col2: #1d1d1d;
+    --meta-col: rgb(155, 149, 149);
+    --head-col: #fff;
 }
 
 html {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -34,7 +34,7 @@ html {
 } */
 
 /* Tech Stack Cards */
-.techstack-box{
+.techstack-box {
     /* position: absolute; */
     /* left: 0; */
     display: flex;
@@ -43,7 +43,8 @@ html {
     overflow: hidden;
     justify-content: center;
 }
-.tech_card{
+
+.tech_card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,16 +53,18 @@ html {
     border-radius: 13px;
     background-color: rgb(65, 62, 65);
     width: 45.7vw;
-    margin:3.5em 30px;
+    margin: 3.5em 30px;
     padding: 20px;
     box-shadow: 0px 0px 15px 2px black;
 }
-html[light-mode="light"] .tech_card{
+
+html[light-mode="light"] .tech_card {
     background-color: white;
     color: #303030;
     box-shadow: 0px 0px 10px #303030;
 }
-.tech_card img{
+
+.tech_card img {
     width: 120px;
     height: 120px;
     /* border: 1px solid black; */
@@ -69,61 +72,79 @@ html[light-mode="light"] .tech_card{
     border-radius: 8px;
     margin-bottom: 8px;
     padding: 20px;
-    
+
 }
-.tech_card h4{
+
+.tech_card h4 {
     font-weight: bold;
     font-family: cursive;
 }
-.main-heading{
+
+.main-heading {
     font-weight: 700;
-    
+
 }
-.main-heading .my_techstacks{
+
+.main-heading .my_techstacks {
     color: #4e00bb;
     text-shadow: 0px 0px 15px #4e00bb;
 }
-html[light-mode="light"] .main-heading .my_techstacks{
+
+html[light-mode="light"] .main-heading .my_techstacks {
     text-shadow: none !important;
 }
-.skill-head{
+
+.skill-head {
     font-size: 2rem;
     font-weight: 700;
 }
-.skill-head .my_skill{
+
+.skill-head .my_skill {
     color: #4e00bb;
     text-shadow: 0px 0px 15px #4e00bb;
 }
-html[light-mode="light"] .skill-head .my_skill{
+
+html[light-mode="light"] .skill-head .my_skill {
     text-shadow: none !important;
 }
-.tech_card .card_img img{
+
+.tech_card .card_img img {
     animation: scale_anime 2s infinite ease-in-out;
 }
-html[light-mode="light"] .tech_card img{
+
+html[light-mode="light"] .tech_card img {
     animation: scale_anime_dark 2s infinite ease-in-out;
 
 }
+
 @keyframes scale_anime_dark {
-    0%{
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(1.15);
-    }100%{
+    }
+
+    100% {
         transform: scale(1);
     }
 }
+
 @keyframes scale_anime {
-    0%{
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(1.15);
-    }100%{
+    }
+
+    100% {
         transform: scale(1);
     }
 }
+
 #svg_css_text {
     animation: translate_forward 2s infinite ease-in-out;
 }
@@ -174,10 +195,12 @@ html[light-mode="light"] .tech_card img{
     font-size: 2.5rem;
     opacity: .7;
 }
+
 html[light-mode="light"] .techstacks_icons .techstack_icon i {
     font-size: 2.5rem;
     opacity: 1;
 }
+
 div.techstack_icon>i:hover {
     opacity: 1;
     transition: opacity .2s linear;
@@ -236,81 +259,200 @@ div.techstack_icon>i.fa-node {
 div.techstack_icon>i.fa-cuttlefish {
     color: #044F88;
 }
-#box1{
+
+#box1 {
     animation: slide-down 8s infinite linear;
 }
-#box3{
+
+#box3 {
     animation: slide-up 8s 4s infinite linear;
 }
+
 @keyframes slide-down {
-    0%{
-        transform: translate(0px,0px);
+    0% {
+        transform: translate(0px, 0px);
     }
-    50%{
+
+    50% {
         transform: translate(212px, 61px)
     }
-    100%{
-        transform: translate(0px,0px);
+
+    100% {
+        transform: translate(0px, 0px);
     }
-    
-}
-@keyframes slide-up {
-    0%{
-        transform: translate(-212px, -60px);
-    }
-    50%{
-        transform: translate(0px,0px);
-    }
-    100%{
-        transform: translate(-212px, -60px);
-    }
-    
+
 }
 
-.project_item{
+@keyframes slide-up {
+    0% {
+        transform: translate(-212px, -60px);
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(-212px, -60px);
+    }
+
+}
+
+.project_item {
     margin-top: 4px;
 }
-.project_item a{
+
+.project_item a {
     color: #bb86c9;
     text-decoration: none;
 }
-html[light-mode="light"] .project_item a{
-    color: #4e00bb ;
+
+html[light-mode="light"] .project_item a {
+    color: #4e00bb;
     text-decoration: none;
 }
-@media (max-width:1180px){
-    .tech_card{
+
+@media (max-width:1180px) {
+    .tech_card {
         width: 45vw;
     }
-    .techstack-box{
+
+    .techstack-box {
         justify-content: center !important;
     }
 }
-@media (max-width:1000px){
-    .tech_card{
+
+@media (max-width:1000px) {
+    .tech_card {
         width: 90vw;
     }
 }
-@media (max-width:450px){
-    .skill-head{
+
+@media (max-width:450px) {
+    .skill-head {
         margin-top: 10px;
         font-size: 22px;
     }
-    .main-heading{
+
+    .main-heading {
         font-size: 25px;
     }
+
     .techstacks_icons .techstack_icon i {
         font-size: 1.8rem;
     }
-    .pre-heading{
+
+    .pre-heading {
         font-size: 13px;
     }
 }
-@media (max-width:350px){
-    .techstack-box{
+
+@media (max-width:350px) {
+    .techstack-box {
         justify-content: center;
     }
-    .tech_card{
+
+    .tech_card {
         width: 95vw;
     }
+}
+
+/* Tech Stack Icons */
+.html_icon i {
+    color: #E34F26;
+}
+
+.css_icon i {
+    color: #264de4;
+}
+
+
+.python_icon i {
+    color: #3776AB;
+}
+
+.excel_icon i {
+    color: #217346;
+}
+
+.sql_icon i,
+.pandas_icon i {
+    color: #f29111;
+}
+
+.firebase_icon i {
+    color: #FFCA28;
+}
+
+.mongodb_icon i {
+    color: #47A248;
+}
+
+.flask_icon i {
+    color: #1e0eae;
+}
+
+.django_icon i {
+    color: #43d69e;
+}
+
+.fastapi_icon i {
+    color: #009688;
+}
+
+.ml_icon i,
+.dl_icon i {
+    color: #f44336;
+}
+
+.langchain_icon i {
+    color: #6E56CF;
+}
+
+.huggingface_icon i {
+    color: #FFCC00;
+}
+
+.openai_icon i {
+    color: #10A37F;
+}
+
+.llms_icon i,
+.sklearn_icon i {
+    color: #FF6F61;
+}
+
+.git_icon i {
+    color: #F05032;
+}
+
+.docker_icon i {
+    color: #0db7ed;
+}
+
+.linux_icon i {
+    color: #FCC624;
+}
+
+.airflow_icon i {
+    color: #017CEE;
+}
+
+.powerbi_icon i {
+    color: #f2c811;
+}
+
+/* Power BI yellow */
+.tableau_icon i {
+    color: #e97627;
+}
+
+/* Tableau orange */
+.matplotlib_icon i {
+    color: #11557c;
+}
+
+/* Matplotlib deep blue */
+.seaborn_icon i {
+    color: #2ab0ff;
 }

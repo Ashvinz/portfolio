@@ -5,10 +5,10 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
-  
+
   {
     title: "Sales Analysis Dashboard, PowerBI",
-    cardImage: "assets/images/project-page/proj_2.png",
+    cardImage: "assets/images/project-page/Sales_Analysis_Image.png",
     description: "Sales Analysis Dashboard Built using PowerBI.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "assets/images/preview/Sales_proj.png.png",
@@ -22,22 +22,6 @@ const projects = [
     Previewlink: "assets/images/preview/Heart_proj.png",
     Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Heart%20Disease%20Analysis.pbit",
   },
-  {
-  title: "Pizza Sales Analysis, Tableau",
-  cardImage: "assets/images/project-page/proj_1.png",
-  description: "A quiz app built using basic react.",
-  tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-  Previewlink: "assets/images/preview/pizza_proj.png",
-  Githublink: "https://github.com/Ashvinz/Tableau-Dashboard/blob/main/Pizza%20Dashboards.twb",
-},
-{
-  title: "Churn Dashboard, PowerBI",
-  cardImage: "assets/images/project-page/proj_4.jpg",
-  description: "Churn Dashboard Build using PowerBI.",
-  tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-  Previewlink: "assets/images/preview/Churn_proj.png",
-  Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Customer%20Churn%20Analysis.pbix",
-},
   {
     title: "Python-MySQL Banking Insights , Data Analysis",
     cardImage: "assets/images/project-page/proj_7.jpg",
@@ -63,14 +47,6 @@ const projects = [
     Githublink: "https://github.com/Ashvinz/Predictive-Analytics-with-ML-DL"
   },
   {
-    title: "Stock Price Prediction , Machine Learning",
-    cardImage: "assets/images/project-page/proj_6.jpg",
-    description: "Stock Price Prediction Model Built using FastAPI",
-    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
-    Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/FastAPI-ML-Projects/tree/main/Stock_Prediction",
-  },
-  {
     title: "Face Detection using CNN , Deep Learning",
     cardImage: "assets/images/project-page/proj_8.jpg",
     description: "A deep learning-based face detection model using Convolutional Neural Networks (CNN).",
@@ -85,15 +61,32 @@ const projects = [
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
     Githublink: "https://github.com/Ashvinz/TravelEase-AI-TravelApp"
-},
-{
+  },
+  {
     title: "Dominos-Sales-Prediction, Deep Learning & Machine Learning",
     cardImage: "assets/images/project-page/proj_12.jpg",
     description: "📊 Forecasting pizza sales using ARIMA, Prophet, LSTM & more to power smart, data-driven decisions.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
     Githublink: "https://github.com/Ashvinz/Dominos-Sales-Prediction/blob/main/dominos_sales_prediction.ipynb"
-},
+  },
+  {
+    title: "Job Application Automation using Airflow & DeepSeek",
+    cardImage: "assets/images/project-page/Airflow_automation.webp",
+    description: "🔁 Automatically applies to job listings using keyword-based matching from company websites and sends emails — orchestrated with Apache Airflow & DeepSeek LLM.",
+    tagimg: "https://www.svgrepo.com/show/354199/apache-airflow-icon.svg",
+    Previewlink: "",
+    Githublink: "https://github.com/Ashvinz/airflow-newjob-vacancy-matcher"
+  },
+  {
+    title: "Symptom to Disease Prediction using LLMs",
+    cardImage: "assets/images/project-page/llm_proj_1.jpg",
+    description: "🧠 Predicts possible diseases based on patient symptoms using advanced LLM pipelines, LangChain agents, and Prompt Engineering.",
+    tagimg: "https://www.svgrepo.com/show/475656/brain.svg",
+    Previewlink: "",
+    Githublink: "https://github.com/Ashvinz/LLM-symptom-disease-predictor"
+  },
+
 ];
 
 // function for rendering project cards data

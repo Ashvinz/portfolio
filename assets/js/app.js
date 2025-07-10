@@ -3,7 +3,7 @@
 // Sweet Alert CDN through JS
 let script = document.createElement("script");
 script.type = 'text/javascript';
-script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
+script.src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 document.body.appendChild(script);
 
 // Header
@@ -137,7 +137,7 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form name="form1" action="https://formcarry.com/s/7uFHCsjpqv3" method="POST" accept-charset="UTF-8" >
+                <form name="form1" action="https://formcarry.com/s/srNoZLrgrHm" method="POST" accept-charset="UTF-8" >
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
                   <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
                   <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
@@ -157,7 +157,7 @@ let footer = $(`
     
 
     <div class="rounded-social-buttons tag">
-    <a class="social-button twitter" href="#" target="_blank">
+    <a class="social-button twitter" href="https://x.com/aswinkumar_003" target="_blank">
     <!-- SVG code for twitter icon -->
     <svg class="twitter-icon-footer" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" enable-background="new 0 0 500 500"
@@ -215,7 +215,7 @@ let footer = $(`
     </svg>
     </a>
 
-    <a class="social-button linkedin" href="www.linkedin.com/in/aswinkumar-r2003" target="_blank" >
+    <a class="social-button linkedin" href="https://www.linkedin.com/in/ashvinz/" target="_blank" >
     <!-- svg code for linkedin icon -->
       <svg class="linkedin-icon-footer" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#0e76a8"
         stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
@@ -226,7 +226,7 @@ let footer = $(`
     </a>
 
 
-    <a class="social-button github" href="https://github.com/AswinKumar-R" target="_blank">
+    <a class="social-button github" href="https://github.com/Ashvinz" target="_blank">
     <!-- SVG code for Github icon -->
     <svg class="github-icon-footer" width="45px" height="45px" viewBox="0 0 300 300">
         <!-- body -->
@@ -436,17 +436,17 @@ $(function submitAnimation() {
 
     // Check if the name field is empty or contains a number
     if (name.value == "" || (/\d/.test(name.value))) {
-      swal("Error !","Please enter a valid name !","error");
+      swal("Error !", "Please enter a valid name !", "error");
       return;
     }
     // Check if the email field is empty or email is not valid ex: test@@email.com
     else if (emailAdress.value == "" || !(emailPattern.test(emailAdress.value))) {
-      swal("Error !","Please enter a valid email !","error");
+      swal("Error !", "Please enter a valid email !", "error");
       return;
     }
     // Check if the message field is empty
     else if (text.value == "") {
-      swal("Error !","Please enter a valid message !","error");
+      swal("Error !", "Please enter a valid message !", "error");
       return;
     }
     else {
