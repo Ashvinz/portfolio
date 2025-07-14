@@ -5,38 +5,29 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
-
   {
-    title: "Sales Analysis Dashboard, PowerBI",
-    cardImage: "assets/images/project-page/Sales_Analysis_Image.png",
-    description: "Sales Analysis Dashboard Built using PowerBI.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "assets/images/preview/Sales_proj.png.png",
-    Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Sales%20and%20Budget%20Analysis.pbit",
-  },
-  {
-    title: "Heart Disease Analysis, PowerBI",
-    cardImage: "assets/images/project-page/proj_3.png",
-    description: "Heart Disease Analysis Dashboard Built using PowerBI.",
+    title: "Dominos-Sales-Prediction, Deep Learning & Machine Learning",
+    cardImage: "assets/images/project-page/proj_12.jpg",
+    description: "📊 Forecasting pizza sales using ARIMA, Prophet, LSTM & more to power smart, data-driven decisions.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "assets/images/preview/Heart_proj.png",
-    Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Heart%20Disease%20Analysis.pbit",
+    Previewlink: "",
+    Githublink: "https://github.com/Ashvinz/Dominos-Sales-Prediction/blob/main/dominos_sales_prediction.ipynb"
   },
   {
-    title: "Python-MySQL Banking Insights , Data Analysis",
-    cardImage: "assets/images/project-page/proj_7.jpg",
-    description: "A project demonstrating data extraction, transformation, and analysis using MySQL and Python for banking insights.",
-    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    title: "Job Application Automation using Airflow & DeepSeek",
+    cardImage: "assets/images/project-page/Airflow_automation.webp",
+    description: "🔁 Automatically applies to job listings using keyword-based matching from company websites and sends emails — orchestrated with Apache Airflow & DeepSeek LLM.",
+    tagimg: "https://www.svgrepo.com/show/354199/apache-airflow-icon.svg",
     Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/python-mysql-banking",
+    Githublink: "https://github.com/Ashvinz/airflow-newjob-vacancy-matcher"
   },
   {
-    title: "Data Processing Pipeline , Python",
-    cardImage: "assets/images/project-page/proj_9.jpg",
-    description: "A project demonstrating data processing techniques such as data cleaning, transformation, integration, and aggregation for large-scale datasets.",
-    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    title: "Symptom to Disease Prediction using LLMs",
+    cardImage: "assets/images/project-page/llm_proj_1.jpg",
+    description: "🧠 Predicts possible diseases based on patient symptoms using advanced LLM pipelines, LangChain agents, and Prompt Engineering.",
+    tagimg: "https://www.svgrepo.com/show/475656/brain.svg",
     Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/Data-Processing-Pipeline/blob/main/Flight_Fare_Prediction.ipynb"
+    Githublink: "https://github.com/Ashvinz/LLM-symptom-disease-predictor"
   },
   {
     title: "ML & DL Models, Predictive Analysis in Python",
@@ -63,28 +54,36 @@ const projects = [
     Githublink: "https://github.com/Ashvinz/TravelEase-AI-TravelApp"
   },
   {
-    title: "Dominos-Sales-Prediction, Deep Learning & Machine Learning",
-    cardImage: "assets/images/project-page/proj_12.jpg",
-    description: "📊 Forecasting pizza sales using ARIMA, Prophet, LSTM & more to power smart, data-driven decisions.",
+    title: "Data Processing Pipeline , Python",
+    cardImage: "assets/images/project-page/proj_9.jpg",
+    description: "A project demonstrating data processing techniques such as data cleaning, transformation, integration, and aggregation for large-scale datasets.",
+    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    Previewlink: "",
+    Githublink: "https://github.com/Ashvinz/Data-Processing-Pipeline/blob/main/Flight_Fare_Prediction.ipynb"
+  },
+  {
+    title: "Sales Analysis Dashboard, PowerBI",
+    cardImage: "assets/images/project-page/Sales_Analysis_Image.png",
+    description: "Sales Analysis Dashboard Built using PowerBI.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "assets/images/preview/Sales_proj.png.png",
+    Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Sales%20and%20Budget%20Analysis.pbit",
+  },
+  {
+    title: "Heart Disease Analysis, PowerBI",
+    cardImage: "assets/images/project-page/proj_3.png",
+    description: "Heart Disease Analysis Dashboard Built using PowerBI.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/Dominos-Sales-Prediction/blob/main/dominos_sales_prediction.ipynb"
+    Previewlink: "assets/images/preview/Heart_proj.png",
+    Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Heart%20Disease%20Analysis.pbit",
   },
   {
-    title: "Job Application Automation using Airflow & DeepSeek",
-    cardImage: "assets/images/project-page/Airflow_automation.webp",
-    description: "🔁 Automatically applies to job listings using keyword-based matching from company websites and sends emails — orchestrated with Apache Airflow & DeepSeek LLM.",
-    tagimg: "https://www.svgrepo.com/show/354199/apache-airflow-icon.svg",
+    title: "Python-MySQL Banking Insights , Data Analysis",
+    cardImage: "assets/images/project-page/proj_7.jpg",
+    description: "A project demonstrating data extraction, transformation, and analysis using MySQL and Python for banking insights.",
+    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/airflow-newjob-vacancy-matcher"
-  },
-  {
-    title: "Symptom to Disease Prediction using LLMs",
-    cardImage: "assets/images/project-page/llm_proj_1.jpg",
-    description: "🧠 Predicts possible diseases based on patient symptoms using advanced LLM pipelines, LangChain agents, and Prompt Engineering.",
-    tagimg: "https://www.svgrepo.com/show/475656/brain.svg",
-    Previewlink: "",
-    Githublink: "https://github.com/Ashvinz/LLM-symptom-disease-predictor"
+    Githublink: "https://github.com/Ashvinz/python-mysql-banking",
   },
 
 ];
