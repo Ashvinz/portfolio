@@ -8,19 +8,19 @@ const moocscards = [
 
 const experience = [
   {
-    img: "assets/images/education-page/c1.png",
+    img: "assets/images/education-page/c1.webp",
   },
   {
-    img: "assets/images/education-page/c2.jpg",
+    img: "assets/images/education-page/c2.webp",
   },
   {
-    img: "assets/images/education-page/c3.png",
+    img: "assets/images/education-page/c3.webp",
   },
   {
-    img: "assets/images/education-page/c4.png",
+    img: "assets/images/education-page/c4.webp",
   },
   {
-    img: "assets/images/education-page/c5.jpg",
+    img: "assets/images/education-page/c5.webp",
   },
 ];
 
@@ -77,17 +77,17 @@ const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
     title: "Google Developer Essentials",
-    image: "assets/images/education-page/badge1.png",
+    image: "assets/images/education-page/badge1.webp",
     description: "Earned May 20, 2020",
   },
   {
     title: "VM Migration",
-    image: "assets/images/education-page/badge2.png",
+    image: "assets/images/education-page/badge2.webp",
     description: "Earned June 20, 2020",
   },
   {
     title: "G Suite Essentials",
-    image: "assets/images/education-page/badge3.png",
+    image: "assets/images/education-page/badge3.webp",
     description: "Earned July 20, 2020",
   },
 ];

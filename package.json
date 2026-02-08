@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Welcome to my **developer portfolio**! Here, you'll find my **projects, skills, and experience** in **Data Science, Machine Learning, Web Development, and BI Tools**. 🌍💻",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashvinz/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ashvinz/portfolio/issues"
+  },
+  "homepage": "https://github.com/Ashvinz/portfolio#readme",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

@@ -6,28 +6,28 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "System & Data Operations",
-    cardImage: "assets/images/experience-page/kmmc.png",
+    cardImage: "assets/images/experience-page/kmmc.webp",
     place: "KMMC Medical College & Medical Centre",
     time: "(July 2025 - Jan 2026)",
     desp: "<li>Performed system administration, data updates, and data validation across institutional platforms.</li><li>Managed NMC-related system work, compliance updates, and online documentation submissions.</li><li>Maintained and updated the official website ensuring data accuracy and regulatory standards.</li><li>Supported internal applications and assisted in student-focused application development.</li>",
   },
   {
     title: "Data Analyst Virtual Intern",
-    cardImage: "assets/images/experience-page/pwc.png",
+    cardImage: "assets/images/experience-page/pwc.webp",
     place: "PwC",
     time: "(Oct - Nov, 2024)",
     desp: "<li>Worked on projects related to Call Centre Trends and Customer Retention.</li><li>Analyzed call center data to identify key trends and bottlenecks, leading to actionable insights.</li> <li>Developed retention strategies using customer data, resulting in improved client satisfaction metrics.</li>",
   },
   {
     title: "Data Virtual Intern",
-    cardImage: "assets/images/experience-page/tcs.png",
+    cardImage: "assets/images/experience-page/tcs.webp",
     place: "Tata Consultancy Services",
     time: "(Nov - Dec, 2024)",
     desp: "<li>Focused on Data Visualization: Empowering Business with Effective Insights.</li><li>Designed interactive dashboards to visualize business data effectively using tools like Power BI and Tableau.</li><li>Presented insights that streamlined business processes and enhanced decision-making efficiency.</li>",
   },
   {
     title: "Data Analyst Virtual Intern",
-    cardImage: "assets/images/experience-page/accenture.jpg",
+    cardImage: "assets/images/experience-page/accenture.webp",
     place: "Accenture",
     time: "(Dec, 2024)",
     desp: "<li>Engaged in a Data Analytics and Visualization Job Simulation</li><li>Utilized Python and SQL to analyze datasets and extract meaningful insights.</li><li>Created dynamic visualizations and reports that addressed business requirements and improved operational performance.</li>",

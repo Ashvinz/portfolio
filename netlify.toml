@@ -1,0 +1,30 @@
+[build]
+  publish = "."
+
+# Default headers for all assets (long cache)
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(), payment=()"
+
+# HTML files should not transform (no auto-formatting) and revalidate content
+[[headers]]
+  for = "/*.html"
+    [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Service Worker (if any) - prevent caching
+[[headers]]
+  for = "/sw.js"
+    [headers.values]
+    Cache-Control = "max-age=0, no-cache, no-store, must-revalidate"
+
+# API/Data (if any)
+[[headers]]
+  for = "/data/*"
+    [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

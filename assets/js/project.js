@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Dominos-Sales-Prediction, Deep Learning & Machine Learning",
-    cardImage: "assets/images/project-page/proj_12.jpg",
+    cardImage: "assets/images/project-page/proj_12.webp",
     description: "📊 Forecasting pizza sales using ARIMA, Prophet, LSTM & more to power smart, data-driven decisions.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Symptom to Disease Prediction using LLMs",
-    cardImage: "assets/images/project-page/llm_proj_1.jpg",
+    cardImage: "assets/images/project-page/llm_proj_1.webp",
     description: "🧠 Predicts possible diseases based on patient symptoms using advanced LLM pipelines, LangChain agents, and Prompt Engineering.",
     tagimg: "https://www.svgrepo.com/show/475656/brain.svg",
     Previewlink: "",
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "ML & DL Models, Predictive Analysis in Python",
-    cardImage: "assets/images/project-page/proj_10.jpeg",
+    cardImage: "assets/images/project-page/proj_10.webp",
     description: "A Data Science-driven predictive analysis project leveraging ML & DL models.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: "Face Detection using CNN , Deep Learning",
-    cardImage: "assets/images/project-page/proj_8.jpg",
+    cardImage: "assets/images/project-page/proj_8.webp",
     description: "A deep learning-based face detection model using Convolutional Neural Networks (CNN).",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "",
@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: "AI-Powered Travel Chatbot using Django, NLP & Machine Learning",
-    cardImage: "assets/images/project-page/proj_11.png",
+    cardImage: "assets/images/project-page/proj_11.webp",
     description: "An intelligent travel assistant chatbot built with Django, NLP, and Machine Learning to enhance customer experience through automated travel assistance.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: "Data Processing Pipeline , Python",
-    cardImage: "assets/images/project-page/proj_9.jpg",
+    cardImage: "assets/images/project-page/proj_9.webp",
     description: "A project demonstrating data processing techniques such as data cleaning, transformation, integration, and aggregation for large-scale datasets.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "",
@@ -63,23 +63,23 @@ const projects = [
   },
   {
     title: "Sales Analysis Dashboard, PowerBI",
-    cardImage: "assets/images/project-page/Sales_Analysis_Image.png",
+    cardImage: "assets/images/project-page/Sales_Analysis_Image.webp",
     description: "Sales Analysis Dashboard Built using PowerBI.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "assets/images/preview/Sales_proj.png.png",
+    Previewlink: "assets/images/preview/Sales_proj.png.webp",
     Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Sales%20and%20Budget%20Analysis.pbit",
   },
   {
     title: "Heart Disease Analysis, PowerBI",
-    cardImage: "assets/images/project-page/proj_3.png",
+    cardImage: "assets/images/project-page/proj_3.webp",
     description: "Heart Disease Analysis Dashboard Built using PowerBI.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "assets/images/preview/Heart_proj.png",
+    Previewlink: "assets/images/preview/Heart_proj.webp",
     Githublink: "https://github.com/Ashvinz/PowerBI-Dashboard/blob/main/Heart%20Disease%20Analysis.pbit",
   },
   {
     title: "Python-MySQL Banking Insights , Data Analysis",
-    cardImage: "assets/images/project-page/proj_7.jpg",
+    cardImage: "assets/images/project-page/proj_7.webp",
     description: "A project demonstrating data extraction, transformation, and analysis using MySQL and Python for banking insights.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "",
