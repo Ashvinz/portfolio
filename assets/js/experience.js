@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "System & Data Operations",
+    cardImage: "assets/images/experience-page/kmmc.png",
+    place: "KMMC Medical College & Medical Centre",
+    time: "(July 2025 - Jan 2026)",
+    desp: "<li>Performed system administration, data updates, and data validation across institutional platforms.</li><li>Managed NMC-related system work, compliance updates, and online documentation submissions.</li><li>Maintained and updated the official website ensuring data accuracy and regulatory standards.</li><li>Supported internal applications and assisted in student-focused application development.</li>",
+  },
+  {
     title: "Data Analyst Virtual Intern",
     cardImage: "assets/images/experience-page/pwc.png",
     place: "PwC",
@@ -31,7 +38,7 @@ const showCards2 = () => {
   let output = "";
   exp.forEach(
     ({ title, cardImage, place, time, desp }) =>
-      (output += `        
+    (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
